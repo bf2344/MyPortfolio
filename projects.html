@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Recent Projects</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brian Ford Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto" rel="stylesheet">
     
-</body>
+
+  </head>
+  <body>
+    <!-- Everything in my header here - nav bar etc -->
+    <header>
+      <!-- Hamburger Menu -->
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <!-- Nav bar with unordered lists -->
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <!-- Nav bar ending here  -->
+      </nav>
+      <body>
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="http://loyolaphoenix.com/wp-content/uploads/2013/02/Cheap-Date-logocolor-e1359925846167.jpg" class="card-img-top" id="projectImg" alt="Cheap Date">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheap Date</h5>
+                        <p class="card-text">Project 1 DU Coding BootCamp</p>
+                    </div>
+                    <div class="card-body">
+                      <a href=“https://ToddTateDev.github.io/Project-1-Repo/” class=“card-link” target=“_blank”>Play Here</a>
+                      <a href=“https://github.com/ToddTateDev/Project-1-Repo” class=“card-link” target=“_blank”>See the Repo Here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://pmcdeadline2.files.wordpress.com/2016/01/bamazon_0.jpg?w=301&h=202&crop=1" class="card-img-top" id="projectImg" alt="Harry Potter Trivia Game">
+                    <div class="card-body">
+                        <h5 class="card-title">Bamazon</h5>
+                        <p class="card-text">Like Amazon....only worse</p>
+                    </div>
+                    <div class="card-body">
+                        <!-- <a href="https://kturnage.github.io/TriviaGame/" class="card-link" target="_blank">Play Here</a> -->
+                        <a href="https://github.com/bf2344/Bamazon" class="card-link" target="_blank">See the Repo Here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.chatelaine.com/wp-content/uploads/2017/05/Bibimbap-homemade-burgers.jpg" class="card-img-top" id="projectImg" alt="Hawaiian Giphy">
+                    <div class="card-body">
+                        <h5 class="card-title">EAT DUH BURGER</h5>
+                        <p class="card-text">Add a Burger</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://obscure-island-71968.herokuapp.com/" class="card-link" target="_blank">Play Here</a>
+                        <a href="https://github.com/bf2344/NewBurger" class="card-link" target="_blank">See the Repo Here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+           </body>
 </html>
